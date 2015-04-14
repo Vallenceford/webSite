@@ -1,0 +1,85 @@
+#bord {
+    width:700px;
+    height:auto;
+    position:relative;
+}
+
+#bord .topic {
+    background:#ddd;
+    margin-top:25px;
+}
+
+.topic h2 {
+    font-size:30px;
+    padding:10px;
+    background:red;
+}
+
+.topic h3 {
+    padding: 5px 5px 5px 10px;
+    font-size:13px;
+    border-bottom:1px #000 solid;
+}
+
+.topic h3.klein {
+    background:black;
+    font-family: arial;
+    font-size:10px;
+}
+
+.topic .onderwerp {
+    padding:15px;
+}
+
+.topic .onderwerp span {
+    font-weight: bold;
+    text-align: right; 
+    float:right;
+}
+
+.topic ul.reacties {
+    background:grey;
+    height:auto;
+    width:auto;
+    padding:10px;
+}
+
+.topic ul.reacties li {
+    border:white 1px solid;
+    padding:5px;
+    margin:10px;
+    min-height: 150px;
+}
+
+.topic ul.reacties li:last-child {
+    border:none;
+    min-height:0px;
+}
+
+.topic ul.reacties li.reageren button {
+    
+}
+
+.topic ul.reacties li p.react {
+    float:left;
+    padding:10px;
+    font-size: 15px;
+}
+
+.topic ul.reacties li img {
+    padding:10px;
+    border-right:solid #000 1px;
+    margin-top:10px;
+    float:left;
+}
+
+
+/*------- topic lijst  ---------*/
+
+ul#lijst {
+    background:#000;
+}
+
+
+
+

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+
+main>section>form {
+    margin: 1em 0;
+}
+
+main>section>form>input {
+    padding: 0.6em 0.5em 0.1em 0.5em;
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    border-bottom: 1px solid #34609D;
+}
+
+main>section>form>input:focus {
+    outline: 0;
+}
+
+/*placeholder stylen*/
+main>section>form>input::-webkit-input-placeholder {
+    color: #afafaf;
+}
+
+main>section>form>input::-moz-placeholder {
+    color: #afafaf;
+}
+
+main>section>form>input:-ms-input-placeholder {
+    color: #afafaf;
+}
+
+main>section>form>input:-moz-placeholder {
+    color: #afafaf;
+}
+
+main>section>form>input[type="submit"] {
+    padding: 0.5em;
+    margin: 0.5em auto;
+    color: white;
+    background-color: #ffd43f;
+    border: 0;
+    cursor: pointer;
+}
+
+main>section>form>input[type="submit"]:hover {
+    background-color: #EAB600;
+}
+
+main>section>form>input[type="submit"]:active {
+    background-color: #ffd43f;
+}
+
+main>section>form>a {
+    color: #34609D;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    max-width: 400px;
+}
+
+main>section>form>a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 635px) {
+    main>section>form>input,
+    main>section>form>a {
+        width: 100%;
+        max-width: 100%;
+    }
+}

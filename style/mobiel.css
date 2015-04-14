@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* mobiel CSS Document */
+/*
+rood: 
+#d54833
+lichtrood: 
+#e37a6e
+geel:
+#ffd43f
+*/
+
+@media (max-width: 800px) {
+    main {
+        margin: 0 2%;
+    }
+    main nav#mainNav_normaal {
+        left: calc(20% + 150px);
+    }
+    main section h1 {
+        /*left: -2%;*/
+    }
+}
+
+@media (max-width: 700px) {
+    main section p {
+        /*padding: 0;*/
+    }
+    footer nav {
+        margin: 0;
+    }
+    footer p,
+    footer a#footerA_mail {
+        padding: 0;
+    }
+}
+
+@media (max-width: 635px) {
+    header {
+        height: 20%;
+    }
+    header a img {
+        left: 0;
+    }
+    header nav {
+        display: none;
+    }
+    main {
+        min-height: calc(80% - 4em);
+        margin: 0 2% 0 0;
+    }
+    main nav#mainNav_mobiel {
+        display: block;
+    }
+    main nav#mainNav_normaal {
+        display: none;
+    }
+    main>section {
+        padding-left: 3.5em;
+    }
+    main section h1 {
+        /*margin: 75px 0 0.5em 1em;*/
+        left: -2.5em;
+        /*padding-left: 3.5em;*/
+        font-size: 2.5em;
+    }
+    main section p {
+        /*margin: 0 0 0 3em;*/
+    }
+    footer {
+        height: 4em;
+    }
+    footer p,
+    footer a#footerA_mail {
+        width: 100%;
+        text-align: center;
+        /*position: static;*/
+        position: relative;
+        top: 0;
+        padding: 0.5em 0;
+        transform: translateY(0);
+    }
+    footer nav {
+        /*display: none;*/
+        
+        width: 100%;
+    }
+    footer nav a {
+        width: 33.3333%;
+        height: 33.3333vw;
+    }
+}
